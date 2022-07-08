@@ -1,0 +1,11 @@
+{
+  "name": "iniciando_com_nodejs_2022",
+  "version": "1.0.0",
+  "description": "Primeiro projeto 2022 CodeDrops",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Tertuliano",
+  "license": "ISC"
+}
