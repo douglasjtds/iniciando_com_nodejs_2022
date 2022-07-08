@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "Caderno capa de skate",
+    "price": 25
+}
+
+
+###
+GET http://localhost:4002/products
+
+
+###
+GET http://localhost:4002/products/219120db-7888-47aa-a98a-5beecb18b2fe
+
+
+###
+PUT http://localhost:4002/products/20841c69-05dc-4548-b649-0cece7cc3ea0
+Content-Type: application/json
+
+{
+    "name": "Caderno capa de moto",
+    "price": 20
+}
+
+
+###
+DELETE http://localhost:4002/products/2beafb8e-619d-4ce9-9ead-2ae4e5e7ad05
