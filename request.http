@@ -12,18 +12,27 @@ GET http://localhost:4002/products
 
 
 ###
-GET http://localhost:4002/products/219120db-7888-47aa-a98a-5beecb18b2fe
+GET http://localhost:4002/products/2973f156-d188-4690-9d6e-414a754bd0a3
 
 
 ###
-PUT http://localhost:4002/products/20841c69-05dc-4548-b649-0cece7cc3ea0
+PUT http://localhost:4002/products/aeca86a2-81de-422d-b088-18b85126146c
 Content-Type: application/json
 
 {
-    "name": "Caderno capa de moto",
+    "name": "Caderno capa de skate",
     "price": 20
+}
+
+###
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "caneta azul",
+    "price": 17
 }
 
 
 ###
-DELETE http://localhost:4002/products/2beafb8e-619d-4ce9-9ead-2ae4e5e7ad05
+DELETE http://localhost:4002/products/9039123b-3556-4d63-9f47-38dc9e6fae6d
